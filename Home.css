@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+
+}
+
+.intro{
+    background-image: url(images/turtle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    padding: 100px 0px;
+    display: flex;
+    background-size: cover;
+}
+
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 128, 0);
+}
+
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(12, 10, 10);
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+li a:hover{
+    background: rgb(185, 55, 55);
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    color: rgb(146, 10, 10);
+}
+
+
+.intro img{
+    height: auto;
+    width: 430px;
+}
+
+.intro-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.intro-text h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.intro-text p{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sub-data{
+    width: auto;
+    height: auto;
+    padding: 400px 0px;
+    background-color: rgb(0, 128, 0);
+}
+
+.topic{
+    color: white;
+    text-align: center;
+}
+
+.topic h3{
+    color: chartreuse;
+}
+
+.topic p{
+    padding-top: 10px;
+    letter-spacing: 2px;
+    text-transform: initial;
+    font-size: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+}
